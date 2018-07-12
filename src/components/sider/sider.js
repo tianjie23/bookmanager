@@ -1,0 +1,35 @@
+export const menus = [
+    {
+        key:"/index/index","title":"首页",icon:"home"
+    },
+    {
+        key:"/index/book","title":"图书馆",icon:"book",
+        sub:[
+            {
+                key:"/index/book/index","title":"图书管理",icon:"book",
+            },
+        ]
+    },
+    {
+        key:"/index/user","title":"用户管理",icon:"user",
+        sub:[
+            {
+                key:"/index/user/index","title":"用户列表",icon:"user",
+            },
+        ]
+    },
+    {
+        key:"/index/person","title":"个人管理",icon:"book",
+        sub:[
+            {
+                key:"/index/person/borrow","title":"借阅记录",icon:"book",
+            },
+            {
+                key:"/index/person/return","title":"归还记录",icon:"book",
+            },
+            {
+                key:"/index/person/note","title":"笔记记录",icon:"book",
+            },
+        ]
+    },
+];

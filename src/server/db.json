@@ -1,0 +1,134 @@
+{
+  "user":[
+    {
+      "id":10000,
+      "username":"admin",
+      "password":"123456",
+      "gender":"male"
+    },
+    {
+      "id":10001,
+      "username":"admin123",
+      "password":"123456",
+      "gender":"female"
+    }
+  ],
+  "book":[
+    {
+      "id":10000,
+      "name":"JavaScript从入门到精通——第二版",
+      "price": "45.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10001,
+      "name":"Java从入门到放弃",
+      "price": "67.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10002,
+      "name":"三天速成C++",
+      "price": "108.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10003,
+      "name":"Mysql从删库到跑路",
+      "price": "68.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10004,
+      "name":"Node.js速成",
+      "price": "45.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10005,
+      "name":"react",
+      "price": "32.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10006,
+      "name":"redux",
+      "price": "40.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10007,
+      "name":".NET速成",
+      "price": "56.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10008,
+      "name":"一周学会Python",
+      "price": "31.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10009,
+      "name":"Python爬虫",
+      "price": "26.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10010,
+      "name":"编程理念的培养",
+      "price": "65.00",
+      "owner_id": "10000"
+    },
+    {
+      "id":10011,
+      "name":"怎么养成良好的编程",
+      "price": "45.00",
+      "owner_id": "10000"
+    }
+  ],
+  "borrow":[
+    {
+      "id":10000,
+      "userid":10001,
+      "bookid":10000,
+      "state":0,
+      "borrowtime":"2018年7月01日",
+      "returntime":"2018年7月10日"
+    },
+    {
+      "id":10001,
+      "userid":10001,
+      "bookid":10001,
+      "state":1,
+      "borrowtime":"2018年7月01日",
+      "returntime":"2018年7月10日"
+    }
+  ],
+  "note":[
+    {
+      "id":10000,
+      "userid":10001,
+      "bookid":10001,
+      "title":"《Java从入门到放弃》笔记",
+      "content":"Java从入门到放弃Java从入门到放弃Java从入门到放弃Java从入门到放弃Java从入门到放弃",
+      "createtime":"2018年7月10日"
+    },
+    {
+      "id":10001,
+      "userid":10001,
+      "bookid":10001,
+      "title":"《Java从入门到放弃》笔记",
+      "content":"Java从入门到放弃Java从入门到放弃Java从入门到放弃Java从入门到放弃Java从入门到放弃1111",
+      "createtime":"2018年7月09日"
+    },
+    {
+      "id":10001,
+      "userid":10001,
+      "bookid":10000,
+      "title":"《JavaScript从入门到精通——第二版》笔记",
+      "content":"JavaScript从入门到精通——第二版JavaScript从入门到精通——第二版JavaScript从入门到精通——第二版JavaScript从入门到精通——第二版JavaScript从入门到精通——第二版",
+      "createtime":"2018年7月09日"
+    }
+  ]
+}
